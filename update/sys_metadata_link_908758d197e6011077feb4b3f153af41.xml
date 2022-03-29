@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7877dc9197e6011077feb4b3f153afcf</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>e387ca899722011077feb4b3f153afbf</answer>
+        <condition table="var__m_sys_decision_input_dbacefc19766011077feb4b3f153afe2">u_tipo_de_requisicao=HR^EQ<item display_value="Human Resources" endquery="false" field="u_tipo_de_requisicao" goto="false" newquery="false" operator="=" or="false" value="HR"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Decisão de Categoria do Responsável">dbacefc19766011077feb4b3f153afe2</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_dbacefc19766011077feb4b3f153afe2</input_table>
+        <label>Human Resources</label>
+        <order>600</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 01:15:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7877dc9197e6011077feb4b3f153afcf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Human Resources</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_decision_question_7877dc9197e6011077feb4b3f153afcf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 01:18:23</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-29 01:15:08</sys_created_on>
+        <sys_id>908758d197e6011077feb4b3f153af41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Human Resources</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_metadata_link_908758d197e6011077feb4b3f153af41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-29 01:18:23</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

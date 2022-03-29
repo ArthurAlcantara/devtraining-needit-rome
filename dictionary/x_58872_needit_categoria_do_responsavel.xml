@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Categoria do Responsável" max_length="40" name="x_58872_needit_categoria_do_responsavel" type="collection">
+        <element display="true" label="Nome Categoria" max_length="40" name="nome_categoria" type="string"/>
+        <element label="Responsável" max_length="32" name="responsavel" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="responsavel"/>
+        </index>
+    </element>
+</database>
