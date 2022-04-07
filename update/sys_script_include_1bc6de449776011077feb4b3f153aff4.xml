@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.getEnderecoEmail</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Busca apenas o endereço de email do requested_for referenciado em uma needIt. Extende GlideAjax</description>
+        <name>getEnderecoEmail</name>
+        <script><![CDATA[var getEnderecoEmail = Class.create();
+getEnderecoEmail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	//Na chamada usar addParam("sysparm_name",<nome do método> no caso getEmail)
+	getEmail: function(){
+		var usuario = new GlideRecord("sys_user");
+		usuario.get(this.getParameter("sysparm_userID"));
+		return usuario.email+'';
+	},
+	
+	getEmailDummy: function(){
+		return "email@teste123.com";
+	},
+	
+    type: 'getEnderecoEmail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-06 23:38:58</sys_created_on>
+        <sys_id>1bc6de449776011077feb4b3f153aff4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>getEnderecoEmail</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_1bc6de449776011077feb4b3f153aff4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-06 23:51:48</sys_updated_on>
+    </sys_script_include>
+</record_update>
